@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[User successfully signed in]]>
+    </line>
+    <line>
+      <![CDATA[Title string comparred successfully]]>
+    </line>
+    <line>
+      <![CDATA[Price string comparred successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="163315" started-at="2018-06-25T18:07:06Z" finished-at="2018-06-25T18:09:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="163315" started-at="2018-06-25T18:07:06Z" finished-at="2018-06-25T18:09:49Z">
+      <class name="in.infosys.testcases.ebay.test">
+        <test-method status="PASS" signature="ebaytest()[pri:0, instance:in.infosys.testcases.ebay.test@29b5cd00]" name="ebaytest" duration-ms="163282" started-at="2018-06-25T18:07:06Z" finished-at="2018-06-25T18:09:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully signed in]]>
+            </line>
+            <line>
+              <![CDATA[Title string comparred successfully]]>
+            </line>
+            <line>
+              <![CDATA[Price string comparred successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ebaytest -->
+      </class> <!-- in.infosys.testcases.ebay.test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
