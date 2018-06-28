@@ -1,5 +1,7 @@
 package in.infosys.pageobject.ebay;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -14,7 +16,7 @@ public class CheckoutPage {
 	{
 		
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
-		
+		PageFactory.initElements(new AppiumFieldDecorator(driver, 15, TimeUnit.SECONDS), this);
 	}
 		
 	

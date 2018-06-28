@@ -7,25 +7,19 @@
     <line>
       <![CDATA[Title string comparred successfully]]>
     </line>
-    <line>
-      <![CDATA[Price string comparred successfully]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="163315" started-at="2018-06-25T18:07:06Z" finished-at="2018-06-25T18:09:49Z">
+  <suite name="Suite" duration-ms="177245" started-at="2018-06-28T17:24:37Z" finished-at="2018-06-28T17:27:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="163315" started-at="2018-06-25T18:07:06Z" finished-at="2018-06-25T18:09:49Z">
+    <test name="Test" duration-ms="177245" started-at="2018-06-28T17:24:37Z" finished-at="2018-06-28T17:27:34Z">
       <class name="in.infosys.testcases.ebay.test">
-        <test-method status="PASS" signature="ebaytest()[pri:0, instance:in.infosys.testcases.ebay.test@29b5cd00]" name="ebaytest" duration-ms="163282" started-at="2018-06-25T18:07:06Z" finished-at="2018-06-25T18:09:49Z">
+        <test-method status="PASS" signature="ebaytest()[pri:0, instance:in.infosys.testcases.ebay.test@60285225]" name="ebaytest" duration-ms="177208" started-at="2018-06-28T17:24:37Z" finished-at="2018-06-28T17:27:34Z">
           <reporter-output>
             <line>
               <![CDATA[User successfully signed in]]>
             </line>
             <line>
               <![CDATA[Title string comparred successfully]]>
-            </line>
-            <line>
-              <![CDATA[Price string comparred successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- ebaytest -->

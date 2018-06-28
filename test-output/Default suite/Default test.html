@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 25 23:33:27 IST 2018</td>
+<td>Started on:</td><td>Tue Jun 26 20:31:42 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>75 seconds (75463 ms)</td>
+<tr><td>Total time:</td><td>138 seconds (138602 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,18 +75,25 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='in.infosys.testcases.ebay.SearchTest.search_testcase()'><b>search_testcase</b><br>Test class: in.infosys.testcases.ebay.SearchTest</td>
+<td title='in.infosys.testcases.ebay.test.ebaytest()'><b>ebaytest</b><br>Test class: in.infosys.testcases.ebay.test<br/>
+<a href="#Output-1634387050" onClick='toggleBox("Output-1634387050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1634387050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1634387050">
+User successfully signed in<br/>
+</div>
+</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: Locator map: 
-- native content: &quot;By.id: com.ebay.mobile:id/menu_cart&quot; 
-- html content: &quot;by id or name &quot;cart_image&quot;&quot;
+- native content: &quot;By.xpath: //android.widget.TextView[@text=&apos;65 inch tv 4k&apos;]&quot; 
+- html content: &quot;by id or name &quot;search_list&quot;&quot;
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;
 System info: host: &apos;kishore&apos;, ip: &apos;192.168.1.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: driver.version: unknown
 	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:152)
 	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:51)
-	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.isDisplayed(&lt;generated&gt;)
-	at in.infosys.testcases.ebay.SearchTest.search_testcase(SearchTest.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.click(&lt;generated&gt;)
+	at in.infosys.testcases.ebay.test.ebaytest(test.java:73)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -112,18 +119,18 @@ Driver info: driver.version: unknown
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace351962798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace351962798'><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: Locator map: 
-- native content: &quot;By.id: com.ebay.mobile:id/menu_cart&quot; 
-- html content: &quot;by id or name &quot;cart_image&quot;&quot;
+</pre></div><a href='#' onClick='toggleBox("stack-trace1634387050", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1634387050'><pre>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: Locator map: 
+- native content: &quot;By.xpath: //android.widget.TextView[@text=&apos;65 inch tv 4k&apos;]&quot; 
+- html content: &quot;by id or name &quot;search_list&quot;&quot;
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:48:19 -0700&apos;
 System info: host: &apos;kishore&apos;, ip: &apos;192.168.1.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: driver.version: unknown
 	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:152)
 	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:51)
-	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.isDisplayed(&lt;generated&gt;)
-	at in.infosys.testcases.ebay.SearchTest.search_testcase(SearchTest.java:60)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$c0b591f0.click(&lt;generated&gt;)
+	at in.infosys.testcases.ebay.test.ebaytest(test.java:73)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -150,8 +157,8 @@ Driver info: driver.version: unknown
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>75</td>
-<td>in.infosys.testcases.ebay.SearchTest@1500955a</td></tr>
+<td>138</td>
+<td>in.infosys.testcases.ebay.test@7113b13f</td></tr>
 </table><p>
 </body>
 </html>

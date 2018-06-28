@@ -142,6 +142,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;in.infosys.testcases.ebay.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;in.infosys.testcases.ebay.test&quot;/&gt;
@@ -188,7 +191,7 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ebaytest')
 data.setCell(0, 2, 'in.infosys.testcases.ebay.test')
-data.setCell(0, 3, 163282);
+data.setCell(0, 3, 177208);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -209,7 +212,6 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">User successfully signed in</span>
                 <span class="reporter-method-output">Title string comparred successfully</span>
-                <span class="reporter-method-output">Price string comparred successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
